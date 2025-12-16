@@ -8,4 +8,4 @@ jobs:
               name: Greet the world
             - name: Getting Code
               run: |
-                git clone https://github.com/${{github.repositoryUrl}}.git
+                git clone ${{github.repositoryUrl}}
