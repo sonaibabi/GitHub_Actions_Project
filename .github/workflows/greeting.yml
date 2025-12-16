@@ -5,3 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - run: echo "Hello world!"
+              name: Greet the world
+            - name: Getting Code
+              run: |
+                git clone https://github.com/${{github.repositoryUrl}}.git
