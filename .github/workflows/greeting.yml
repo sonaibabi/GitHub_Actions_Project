@@ -1,0 +1,7 @@
+name: learn-github-actions
+on: push
+jobs: 
+    greet:
+        runs-on: ubunutu-latest
+        steps: 
+            - run: echo "Hello world!"
