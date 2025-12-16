@@ -2,6 +2,6 @@ name: learn-github-actions
 on: push
 jobs: 
     greet:
-        runs-on: ubunutu-latest
+        runs-on: ubuntu-latest
         steps: 
             - run: echo "Hello world!"
